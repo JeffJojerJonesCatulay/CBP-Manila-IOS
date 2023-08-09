@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:CBPManilaMobile"
+             x:Class="CBPManilaMobile.NavSearchPlaces"
+             BackgroundColor="Black"
+             >
+    <ContentPage.Content>
+        <StackLayout>
+            <Image Source="{local:ImageResource CBPManilaMobile.images.placesBg.jpg}"/>
+            <Label Text=" Select A Place" TextColor="White"/>
+            <ListView x:Name="placesListView" ItemsSource="{Binding Places}" HasUnevenRows="True" BackgroundColor="Black" ItemSelected="ListView_ItemSelected">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid Padding="10">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"></RowDefinition>
+                                    <RowDefinition Height="*"></RowDefinition>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                                    <ColumnDefinition Width="*"></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+                                <Image Grid.RowSpan="2" Source="{Binding ImageURL}"></Image>
+                                <Label Grid.Column="1" Grid.Row="0" Text="{Binding placeName}" FontAttributes="Bold" FontSize="Large" TextColor="White"></Label>
+                                <Label Grid.Column="1" Grid.Row="1" Text="{Binding businessNum}" TextColor="White" ></Label>
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

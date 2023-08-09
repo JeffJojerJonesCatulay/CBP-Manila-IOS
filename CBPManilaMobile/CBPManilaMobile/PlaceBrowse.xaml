@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CBPManilaMobile.PlaceBrowse"
+             xmlns:local="clr-namespace:CBPManilaMobile"
+             >
+    <ContentPage.Content>
+        <StackLayout>
+            <Image Source="{local:ImageResource CBPManilaMobile.images.placesBg.jpg}"/>
+            <SearchBar x:Name="search" TextChanged="search_TextChanged" />
+            <Picker x:Name="picker"
+            Title="Filter Category"
+            SelectedIndexChanged="picker_SelectedIndexChanged"              
+            TitleColor="Red">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>No Filter</x:String>
+
+                        <x:String>Commercial</x:String>
+                        <x:String>Food</x:String>
+                        <x:String>Furniture</x:String>
+                        <x:String>Hardware</x:String>
+                        <x:String>Mall</x:String>
+
+                        <x:String>Pet Shop</x:String>
+                        <x:String>Salon</x:String>
+                        <x:String>Store</x:String>
+                        <x:String>Water</x:String>
+
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+
+            <ListView x:Name="BusinessListview" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" ItemSelected="BusinessListView_ItemSelected"
+                       SeparatorColor="Black" 
+                      >
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextCell Text="{Binding BusinessName}" Detail="{Binding BusinessAddress}"/>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

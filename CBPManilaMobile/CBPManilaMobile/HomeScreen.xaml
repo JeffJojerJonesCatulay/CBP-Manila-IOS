@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:mm="clr-namespace:MediaManager.Forms;assembly=MediaManager.Forms"
+             xmlns:local="clr-namespace:CBPManilaMobile"
+             x:Class="CBPManilaMobile.HomeScreen"         
+             BackgroundColor="Black"
+             >
+    <ContentPage.Content>
+        
+        <StackLayout>
+
+            <StackLayout>
+                <mm:VideoView HeightRequest="202"  
+                             WidthRequest="202" VerticalOptions="FillAndExpand" ShowControls="False"
+                              />
+            </StackLayout>
+
+            <StackLayout>
+                <Label Text=" Quick Access" TextColor="White"/>
+            </StackLayout>
+
+            <ScrollView>
+                <StackLayout>
+                    
+                    <StackLayout BackgroundColor="White">
+                        <Image 
+                        HeightRequest="202" 
+                        WidthRequest="202"                       
+                        Source="{local:ImageResource CBPManilaMobile.images.com.jpg}"
+                        Margin="0,0,20,0"   
+                        >
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer
+                            Tapped="commercial_Tapped"
+                            NumberOfTapsRequired="1" />
+                            </Image.GestureRecognizers>
+                        </Image>
+
+                    </StackLayout>
+                    
+                    <StackLayout BackgroundColor="White">
+                        <Image 
+                        HeightRequest="202" 
+                        WidthRequest="202"                       
+                        Source="{local:ImageResource CBPManilaMobile.images.food.jpg}"
+                        Margin="0,0,20,0"   
+                        >
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer
+                            Tapped="food_Tapped"
+                            NumberOfTapsRequired="1" />
+                            </Image.GestureRecognizers>
+                        </Image>
+                    </StackLayout>
+                    
+                    <StackLayout BackgroundColor="White">
+                        <Image 
+                        HeightRequest="202" 
+                        WidthRequest="202"                       
+                        Source="{local:ImageResource CBPManilaMobile.images.furniture.jpg}"
+                        Margin="0,0,20,0"   
+                        >
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer
+                            Tapped="furniture_Tapped"
+                            NumberOfTapsRequired="1" />
+                            </Image.GestureRecognizers>
+                        </Image>
+                    </StackLayout>
+                    
+                    <StackLayout BackgroundColor="White">
+                        <Image 
+                        HeightRequest="202" 
+                        WidthRequest="202"                       
+                        Source="{local:ImageResource CBPManilaMobile.images.hardware.jpg}"
+                        Margin="0,0,20,0"   
+                        >
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer
+                            Tapped="hardware_Tapped"
+                            NumberOfTapsRequired="1" />
+                            </Image.GestureRecognizers>
+                        </Image>
+                    </StackLayout>
+                    
+                    <StackLayout BackgroundColor="White">
+                        <Image 
+                        HeightRequest="202" 
+                        WidthRequest="202"                       
+                        Source="{local:ImageResource CBPManilaMobile.images.malls.jpg}"
+                        Margin="0,0,20,0"   
+                        >
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer
+                            Tapped="mall_Tapped"
+                            NumberOfTapsRequired="1" />
+                            </Image.GestureRecognizers>
+                        </Image>
+                    </StackLayout>
+                    
+                    <StackLayout BackgroundColor="White">
+                        <Image 
+                        HeightRequest="202" 
+                        WidthRequest="202"                       
+                        Source="{local:ImageResource CBPManilaMobile.images.pet.jpg}"
+                        Margin="0,0,20,0"   
+                        >
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer
+                            Tapped="pet_Tapped"
+                            NumberOfTapsRequired="1" />
+                            </Image.GestureRecognizers>
+                        </Image>
+                    </StackLayout>
+                    
+                    <StackLayout BackgroundColor="White">
+                        <Image 
+                        HeightRequest="202" 
+                        WidthRequest="202"                       
+                        Source="{local:ImageResource CBPManilaMobile.images.salon.jpg}"
+                        Margin="0,0,20,0"   
+                        >
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer
+                            Tapped="salon_Tapped"
+                            NumberOfTapsRequired="1" />
+                            </Image.GestureRecognizers>
+                        </Image>
+                    </StackLayout>
+                    
+                    <StackLayout BackgroundColor="White">
+                        <Image 
+                        HeightRequest="202" 
+                        WidthRequest="202"                       
+                        Source="{local:ImageResource CBPManilaMobile.images.store.jpg}"
+                        Margin="0,0,20,0"   
+                        >
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer
+                            Tapped="store_Tapped"
+                            NumberOfTapsRequired="1" />
+                            </Image.GestureRecognizers>
+                        </Image>
+                    </StackLayout>
+                    
+                    <StackLayout BackgroundColor="White">
+                        <Image 
+                        HeightRequest="202" 
+                        WidthRequest="202"                       
+                        Source="{local:ImageResource CBPManilaMobile.images.water.jpg}"
+                        Margin="0,0,20,0"   
+                        >
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer
+                            Tapped="water_Tapped"
+                            NumberOfTapsRequired="1" />
+                            </Image.GestureRecognizers>
+                        </Image>
+                    </StackLayout>
+                    
+                </StackLayout>
+          
+            </ScrollView>
+            
+        </StackLayout>
+        
+    </ContentPage.Content>
+   
+</ContentPage>

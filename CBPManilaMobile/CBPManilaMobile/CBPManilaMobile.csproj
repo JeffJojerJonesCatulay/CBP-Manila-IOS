@@ -1,0 +1,90 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>portable</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="images\CBP-Logo.png" />
+    <None Remove="images\cbpLogoBG.png" />
+    <None Remove="images\com.jpg" />
+    <None Remove="images\food.jpg" />
+    <None Remove="images\furniture.jpg" />
+    <None Remove="images\hardware.jpg" />
+    <None Remove="images\home.png" />
+    <None Remove="images\info.png" />
+    <None Remove="images\malls.jpg" />
+    <None Remove="images\pet.jpg" />
+    <None Remove="images\placesBg.jpg" />
+    <None Remove="images\salon.jpg" />
+    <None Remove="images\search.png" />
+    <None Remove="images\store.jpg" />
+    <None Remove="images\water.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="images\cbpLogoBG.png" />
+    <EmbeddedResource Include="images\placesBg.jpg" />
+    <EmbeddedResource Include="images\store.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="images\malls.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="images\CBP-Logo.png" />
+    <EmbeddedResource Include="images\com.jpg" />
+    <EmbeddedResource Include="images\food.jpg" />
+    <EmbeddedResource Include="images\furniture.jpg" />
+    <EmbeddedResource Include="images\hardware.jpg" />
+    <EmbeddedResource Include="images\home.png" />
+    <EmbeddedResource Include="images\info.png" />
+    <EmbeddedResource Include="images\pet.jpg" />
+    <EmbeddedResource Include="images\salon.jpg" />
+    <EmbeddedResource Include="images\search.png" />
+    <EmbeddedResource Include="images\water.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Plugin.MediaManager" Version="1.0.8" />
+    <PackageReference Include="Plugin.MediaManager.Forms" Version="1.0.8" />
+    <PackageReference Include="sqlite-net-pcl" Version="1.7.335" />
+    <PackageReference Include="Xam.Forms.VideoPlayer" Version="1.0.8" />
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.1874" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.6.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="CategoryBrowse.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="CBPResult.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="CBPResultPlace.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="HomeScreen.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="NavHome.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="NavInfo.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="NavSearchPlaces.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="PlaceBrowse.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

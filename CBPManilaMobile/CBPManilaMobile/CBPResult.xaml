@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              xmlns:local="clr-namespace:CBPManilaMobile"
+             x:Class="CBPManilaMobile.CBPResult">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <StackLayout Padding="10" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"  BackgroundColor="Black">
+
+                    <Image 
+                        HeightRequest="202" 
+                        WidthRequest="202"                       
+                        Source="{local:ImageResource CBPManilaMobile.images.CBP-Logo.png}"
+                        Margin="0,0,20,0"   
+                        />
+
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Label Text="Name" Grid.Row="0" Grid.Column="0" HorizontalOptions="Start" VerticalOptions="Center" TextColor="White"/>
+                        <Label Text="{Binding BusinessName}" Grid.Row="0" Grid.Column="1" TextColor="White"/>
+
+                        <Label Text="Description" Grid.Row="1" Grid.Column="0" HorizontalOptions="Start" VerticalOptions="Center" TextColor="White"/>
+                        <Label Text="{Binding BusinessDescription}" Grid.Row="1" Grid.Column="1" TextColor="White"/>
+
+                        <Label Text="Address" Grid.Row="2" Grid.Column="0" HorizontalOptions="Start" VerticalOptions="Center" TextColor="White"/>
+                        <Label Text="{Binding BusinessAddress}" Grid.Row="2" Grid.Column="1" TextColor="White"/>
+
+                        <Label Text="BusinessHours" Grid.Row="3" Grid.Column="0" HorizontalOptions="Start" VerticalOptions="Center" TextColor="White"/>
+                        <Label Text="{Binding BusinessHours}" Grid.Row="3" Grid.Column="1" TextColor="White"/>
+
+                        <Label Text="Contact" Grid.Row="4" Grid.Column="0" HorizontalOptions="Start" VerticalOptions="Center" TextColor="White"/>
+                        <Label Text="{Binding ContactNumbers}" Grid.Row="4" Grid.Column="1" TextColor="White"/>
+
+                        <Label Text="Website" Grid.Row="5" Grid.Column="0" HorizontalOptions="Start" VerticalOptions="Center" TextColor="White"/>
+                        <Label Text="{Binding Website}" Grid.Row="5" Grid.Column="1" TextColor="White"/>
+
+                        <Label Text="Facebook" Grid.Row="6" Grid.Column="0" HorizontalOptions="Start" VerticalOptions="Center" TextColor="White"/>
+                        <Label Text="{Binding Facebook}" Grid.Row="6" Grid.Column="1" TextColor="White"/>
+
+                        <Label Text="Instagram" Grid.Row="7" Grid.Column="0" HorizontalOptions="Start" VerticalOptions="Center" TextColor="White"/>
+                        <Label Text="{Binding Instagram}" Grid.Row="7" Grid.Column="1" TextColor="White"/>
+
+                        <Label Text="Requirement" Grid.Row="8" Grid.Column="0" HorizontalOptions="Start" VerticalOptions="Center" TextColor="White"/>
+                        <Label Text="{Binding Requirement}" Grid.Row="8" Grid.Column="1" TextColor="White"/>
+
+                    </Grid>
+
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

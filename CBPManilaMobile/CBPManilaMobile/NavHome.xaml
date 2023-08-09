@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:CBPManilaMobile="clr-namespace:CBPManilaMobile"
+            xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+             xmlns:local="clr-namespace:CBPManilaMobile"
+            android:TabbedPage.ToolbarPlacement="Bottom"
+            x:Class="CBPManilaMobile.NavHome">
+  <!--Pages can be added as references or inline-->
+    <CBPManilaMobile:HomeScreen Title="Home" IconImageSource="home.png"></CBPManilaMobile:HomeScreen>
+    <CBPManilaMobile:NavSearchPlaces Title="Search Places" IconImageSource="search.png"></CBPManilaMobile:NavSearchPlaces>
+    <CBPManilaMobile:NavInfo Title="Info" IconImageSource="info.png"></CBPManilaMobile:NavInfo>
+</TabbedPage>

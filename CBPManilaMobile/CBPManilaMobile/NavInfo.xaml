@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:CBPManilaMobile"
+             x:Class="CBPManilaMobile.NavInfo"
+             BackgroundColor="DimGray"
+             >
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout VerticalOptions="FillAndExpand">
+                <Image HeightRequest="150" WidthRequest="200" Source="{local:ImageResource CBPManilaMobile.images.cbpLogoBG.png}"/> 
+            </StackLayout>
+
+                <StackLayout>
+                    <Label Text="      The researchers intent to aid this dilemma that this
+pandemic bring by having a system wherein they made a centralized
+business portal for manila city that mainly focused on providing information
+about certain businesses that can offer their services in the community
+during this period. This system will help the user find the nearest shops
+quickly as well as the basic details of the shop (e.g. opening/closing time,
+services/product, website page, social media account) The user can select
+the location as long as it is along manila area. The user of the system may
+search what services or product they are looking for or even the name of
+the establishment itself. " TextColor="White" Padding="50" FontSize="18"/>
+                </StackLayout>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

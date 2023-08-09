@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "+E377wFEHlHfe1djZMRHK+XpIC9PMZSg6aMCjjxEn9Rdj9uBacLUle8+QNyRDSuBkIjgUtt1m5ugslws2JC0lA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Jeff Catulay\\source\\repos\\CBPManilaMobile\\CBPManilaMobile\\CBPManilaMobile.iOS\\CBPManilaMobile.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Jeff Catulay\\.nuget\\packages\\plugin.mediamanager\\1.0.8\\plugin.mediamanager.1.0.8.nupkg.sha512",
+    "C:\\Users\\Jeff Catulay\\.nuget\\packages\\plugin.mediamanager.forms\\1.0.8\\plugin.mediamanager.forms.1.0.8.nupkg.sha512",
+    "C:\\Users\\Jeff Catulay\\.nuget\\packages\\sqlite-net-pcl\\1.7.335\\sqlite-net-pcl.1.7.335.nupkg.sha512",
+    "C:\\Users\\Jeff Catulay\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.3\\sqlitepclraw.bundle_green.2.0.3.nupkg.sha512",
+    "C:\\Users\\Jeff Catulay\\.nuget\\packages\\sqlitepclraw.core\\2.0.3\\sqlitepclraw.core.2.0.3.nupkg.sha512",
+    "C:\\Users\\Jeff Catulay\\.nuget\\packages\\sqlitepclraw.provider.dynamic_cdecl\\2.0.3\\sqlitepclraw.provider.dynamic_cdecl.2.0.3.nupkg.sha512",
+    "C:\\Users\\Jeff Catulay\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",
+    "C:\\Users\\Jeff Catulay\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\Jeff Catulay\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Jeff Catulay\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+    "C:\\Users\\Jeff Catulay\\.nuget\\packages\\xam.forms.videoplayer\\1.0.8\\xam.forms.videoplayer.1.0.8.nupkg.sha512",
+    "C:\\Users\\Jeff Catulay\\.nuget\\packages\\xamarin.essentials\\1.6.0\\xamarin.essentials.1.6.0.nupkg.sha512",
+    "C:\\Users\\Jeff Catulay\\.nuget\\packages\\xamarin.forms\\5.0.0.1874\\xamarin.forms.5.0.0.1874.nupkg.sha512"
+  ],
+  "logs": []
+}

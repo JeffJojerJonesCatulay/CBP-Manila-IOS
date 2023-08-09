@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="Xam.Forms.VideoPlayer.UWP" version="1.0" primary="true">
+		<Qualifiers/>
+		<ResourceMapSubtree name="Files">
+			<ResourceMapSubtree name="Xam.Forms.VideoPlayer.UWP">
+				<NamedResource name="Xam.Forms.VideoPlayer.UWP.xr.xml" uri="ms-resource://Xam.Forms.VideoPlayer.UWP/Files/Xam.Forms.VideoPlayer.UWP/Xam.Forms.VideoPlayer.UWP.xr.xml">
+					<Candidate type="Path">
+						<Value>Xam.Forms.VideoPlayer.UWP\Xam.Forms.VideoPlayer.UWP.xr.xml</Value>
+					</Candidate>
+				</NamedResource>
+				<ResourceMapSubtree name="Microsoft.UI.Xaml">
+					<ResourceMapSubtree name="DensityStyles">
+						<NamedResource name="Compact.xbf" uri="ms-resource://Xam.Forms.VideoPlayer.UWP/Files/Xam.Forms.VideoPlayer.UWP/Microsoft.UI.Xaml/DensityStyles/Compact.xbf">
+							<Candidate type="EmbeddedData">
+								<Base64Value>[Embedded Binary Data]</Base64Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

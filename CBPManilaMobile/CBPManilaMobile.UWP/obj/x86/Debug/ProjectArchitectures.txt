@@ -1,0 +1,1 @@
+C:\Users\Jeff Catulay\source\repos\CBPManilaMobile\CBPManilaMobile\CBPManilaMobile.UWP\CBPManilaMobile.UWP.csproj;x86
